@@ -1,23 +1,12 @@
-#include <stdio.h>                                                                                                                                     
+#include <stsio.h>
 
-                                                                                                                                                       
-
-/**                                                                                                                                                    
-
-* The code prints the string inside the puts function                                                                                                  
-
-* The code can't use the printf() function                                                                                                             
-
-* It must terminate with a value of 0                                                                                                                  
-
-*/                                                                                                                                                     
-
-                                                                                                                                                       
-
-int main(void)                                                                                                                                         
-
-{                                                                                                                                                      
-
-        puts("\"Programming is like bulding a multilingual puzzle")
+/**
+* The program must print the string insdie the puts function
+* The printf function cannot be used
+* The program should end with value 0
+*/
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
