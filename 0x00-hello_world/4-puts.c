@@ -1,9 +1,9 @@
-#include <stsio.h>
+#include <stdio.h>
 
 /**
-* The program must print the string insdie the puts function
+* The program must print the string inside the puts function
 * The printf function cannot be used
-* The program should end with value 0
+* It should end with value 0
 */
 int main(void)
 {
