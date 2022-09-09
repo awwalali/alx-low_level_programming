@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* The program must print the strint inside the printf function
+* main - The program must print the strint inside the printf function
 *
-* The programe cannot use the puts function
-* It should terminate withvalue 0
+* Description - The programe cannot use the puts function
+* Return: 0
 */
 int main(void)
 {
