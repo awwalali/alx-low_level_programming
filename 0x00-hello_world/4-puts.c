@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
-* The program must print the string inside the puts function
+* main - The program must print the string inside the puts function
 *
-*The printf function cannot be used
-* It should  end with value 0
+* Description: The printf function cannot be used
+* Return: 0
 */
 int main(void)
 {
