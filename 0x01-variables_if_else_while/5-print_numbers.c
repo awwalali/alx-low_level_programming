@@ -14,7 +14,7 @@ int mai(void)
 	{
 		printf("%i", i);
 	}
-	printf("\n");
-	return (0);
+printf("\n");
+return (0);
 }
 
