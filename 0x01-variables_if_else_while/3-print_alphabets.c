@@ -1,10 +1,12 @@
 #include <stdio.h>
 
-/*main_printing the alphabet*/
+/**
+ * main - printing the alphabet
+ *
+ * Description: print out alphabets
+ * Return: 0
+ */
 /**/
-/*description- print out the alphabet only using the putcha dunction*/
-/*Return: 0*/
-
 int main(void)
 {
 	char ch;
@@ -13,11 +15,11 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	for (ch ='A' ; ch <= 'Z' ; ch++)
+	for (ch = 'A' ; ch <= 'Z' ; ch++)
 	{
 		putchar(ch);
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
 
