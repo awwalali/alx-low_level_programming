@@ -1,9 +1,11 @@
 #include <stdio.h>
 
-/*main_printing the alphabet*/
-/**/
-/*description- print out the alphabet only using the putcha dunction*/
-/*Return: 0*/
+/**
+ * main - printing the alphabet
+ *
+ * Description: print out the alphabet only using the putcha dunction
+ * Return: 0
+ */
 int main(void)
 {
 	char ch;
@@ -12,7 +14,7 @@ int main(void)
 	{
 		putchar(ch);
 	}
-putchar('\n');
-return (0);
+	putchar('\n');
+	return (0);
 }
 
