@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * main - This program will assign a random number to the variable n each time it is executed
+ * main - Assign a random number to the variable n each time
  *
- * Description - the program must say weather the number stored in variable n is positive or negative
- * return: 0
+ * Description - it says weather the number stored in variable is + or -
+ * Return: 0
  */
 int main(void)
 {
@@ -14,6 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	/*your code goes here*/
 	if (n > 0)
 	{
