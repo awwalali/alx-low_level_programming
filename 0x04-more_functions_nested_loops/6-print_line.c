@@ -6,9 +6,11 @@
  * Return: 0
  */
 
-void print-line(int n)
+void print_line(int n)
 {
-	while (n > 0)
+	int j = 0;
+
+	while (n > j)
 	{
 		_putchar('_');
 		n--;
