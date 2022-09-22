@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strncat - concatenates n bytes from a string to another
+ * _strncpy - concatenates n bytes from a string to another
  * @dest: destination string
  * @src: source str
  * @n: number of bytes of the str
@@ -10,20 +10,18 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int i, j;
+	int i;
 
 	i = 0;
-	j = 0;
 
-	while (dest[i] != '\0')
+	while (dest[i] != '\0' && i < n)
 		i++;
 
-	while (src[j] != '\0' && j < n)
+	while (i < n)
 	{
-		dest[i] = src[j];
-		i++;
-		j++;
+		dest[i] + '\0';
+		i++
 	}
-	dest[i] = '\0';
+
 	return (dest);
 }
